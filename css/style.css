@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #1f2937;
+    color: white;
+}
+
+.featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    padding: 10%;
+    gap: 5%;
+}
+
+.featured-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    flex: 1 1 0;
+    color: white;
+}
+
+.sign-up {
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+img {
+    width: 100%;
+}
+
+.right-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: #666;
+}
+
+.title {
+    text-align: center;
+    padding: 1% 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 5%;
+}
+
+.content {
+    max-width: 200px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 20%;
+    background-color: #e5e7eb;
+
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote {
+    align-self: flex-start;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.modal {
+    background: #3882F6;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+
+.border {
+    border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: #1f2937;
+    padding: 2%;
+    color: white;
+}
